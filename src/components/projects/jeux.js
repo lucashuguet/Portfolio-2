@@ -32,7 +32,7 @@ class Jeux extends Component {
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548352730/img/Screenshot_2019-01-24_donkey_kong.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Donkey-Kong</CardTitle>
                         <CardActions border>
-                            <Button colored href="/src/Donkey-Kong/index.html">Jouer</Button>
+                            <Button colored href="/src/donkey-kong/index.html">Jouer</Button>
                         </CardActions>
                     </Card>
                 </div>
@@ -43,7 +43,7 @@ class Jeux extends Component {
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548353362/img/Screenshot_2019-01-24_Le_jeu_du_morpion.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Morpion</CardTitle>
                         <CardActions border>
-                            <Button colored href="/src/Morpion/index.html">Jouer</Button>
+                            <Button colored href="/src/morpion/index.html">Jouer</Button>
                         </CardActions>
                     </Card>
                 </div>
@@ -54,7 +54,7 @@ class Jeux extends Component {
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548353729/img/Screenshot_2019-01-24_Pacman_1.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Pacman</CardTitle>
                         <CardActions border>
-                            <Button colored href="/src/Pacman/index.html">Jouer</Button>
+                            <Button colored href="/src/pacman/index.html">Jouer</Button>
                         </CardActions>
                     </Card>
                 </div>
