@@ -160,3 +160,15 @@ h1 {
     flex-wrap: wrap;
   }
 }
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.player-box {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 50px;
+}

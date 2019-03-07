@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell} from 'react-mdl';
-import Graphiste from './projects/graphiste';
 import Jeux from './projects/jeux';
-import Video from './projects/video';
+import Graphisme from './projects/graphisme';
 class Projects extends Component {
 
     constructor(probs) {
@@ -17,12 +16,8 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 1){
             return(
-                <Video/>
-                )
-        } else if (this.state.activeTab === 2){
-            return(
-                <Graphiste/>
-        )
+                <Graphisme/>
+            )
         } 
     }
 
@@ -33,8 +28,7 @@ class Projects extends Component {
              <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple className="category-tab">
                     <Tab>Jeux</Tab>
-                    <Tab>Vidéos</Tab>
-                    <Tab>Graphiste</Tab>
+                    <Tab>Graphisme</Tab>
                 </Tabs>
                     <Grid>
                         <Cell col={12}>
